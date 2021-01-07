@@ -1,0 +1,116 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* {
+  box-sizing: border-box;
+  font-family:"courier";margin: 0;
+  padding: 0; text-align: justify;
+  
+}
+
+h1 {
+  margin-bottom: 20px;text-align: center;font-size: 250%;
+  
+}
+
+.container {
+;
+  position: relative; width: 100%;
+  height: 300px; border: 2px solid black;
+margin-left: 1%;
+margin-right: 0%;
+margin-top: 10px;
+
+}
+
+.bgc1 {
+  background-color: #FFA500;
+}
+
+.bgc2 {
+  background-color: #DEB887;
+}
+
+.bgc3 {
+  background-color: #7FFFD4;
+}
+
+
+.section_title {
+
+  position: absolute; width: 90px;border: 1px solid black;font-size: 15pt;font-weight: bold;
+  height: 30px;text-align: center;padding: 2PX;
+  top: 0px;
+  right: 0px;
+}
+
+
+p {clear:right;
+  margin-left:20px;margin-right: 20px;
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;margin:auto;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    
+  }
+  .col-lg-1 {
+    width: 32%;
+  }
+  .col-lg-2 {
+    width: 32%;
+  } 
+  .col-lg-3 {
+    width: 32%;
+  }
+ 
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    
+  }
+  .col-md-1 {
+    width: 48%;
+  }
+  .col-md-2 {
+    width: 48%;
+  
+  }
+  .col-md-3 {
+    width: 97%;
+  }
+
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-1,{
+    float: left;}
+
+    .container {
+;
+  position: relative; width: 98%;
+  height: 300px; border: 2px solid black;
+margin:auto;
+margin-top: 10px;
+
+
+
+
+    
+  }
+}
