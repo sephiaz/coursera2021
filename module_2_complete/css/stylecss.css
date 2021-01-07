@@ -10,7 +10,7 @@
 }
 
 h1 {
-  margin-bottom: 20px;text-align: center;font-size: 250%;
+  margin-bottom: 20px;text-align: center;font-size: 175%;
   
 }
 
@@ -39,7 +39,7 @@ margin-top: 10px;
 
 .section_title {
 
-  position: absolute; width: 90px;border: 1px solid black;font-size: 15pt;font-weight: bold;
+  position: absolute; width: 90px;border: 1px solid black;font-size: 125%;font-weight: bold;
   height: 30px;text-align: center;padding: 2PX;
   top: 0px;
   right: 0px;
